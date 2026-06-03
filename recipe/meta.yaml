@@ -1,4 +1,4 @@
-{% set version = "0.11.2" %}
+{% set version = "0.11.3" %}
 
 package:
   name: rustic
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/rustic-rs/rustic/archive/v{{ version }}.tar.gz
-  sha256: b65c1b432a9903f554516445588cbab796865a7058380fd7856835b081e0ec0e
+  sha256: abbafea18ea56f486a68f186bb139b0e8e8d002bb5cd897ed148cf7817a8ed73
 
 build:
   number: 0
